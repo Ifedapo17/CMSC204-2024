@@ -1,0 +1,10 @@
+
+public class InvalidNotationFormatException extends Exception{
+	public InvalidNotationFormatException() {
+		System.out.println("Notation format is incorrect");
+	}
+	
+	public InvalidNotationFormatException(String msg) {
+		super(msg);
+	}
+}
